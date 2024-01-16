@@ -1,0 +1,1 @@
+export const title = 'Secure Your Way of Messaging';
