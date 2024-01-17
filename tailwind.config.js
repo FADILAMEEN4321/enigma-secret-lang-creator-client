@@ -12,7 +12,8 @@ export default {
         enigmagray: '#242424',
         enigmalightgray:'#a1a1a1',
         enigmawhite: '#ffffff',
-        enigmablue: '#000830'
+        enigmablue: '#000830',
+        enigmanormalbg:'#101012'
       },
     },
   },
