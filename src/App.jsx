@@ -7,15 +7,6 @@ import buyMeCoffeePng from "./assets/buymecoffee-icon.png";
 function App() {
   return (
     <>
-      {/* <div class="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div> */}
-      {/* <div class="absolute top-0 z-[-2] h-full w-screen bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]"></div> */}
-      {/* <div class="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div> */}
-      {/* <div class="relative h-full w-full bg-slate-950"><div class="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div></div> */}
-      {/* <div class="relative h-full w-full bg-slate-950"><div class="absolute bottom-0 left-[-20%] right-0 top-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))]"></div><div class="absolute bottom-0 right-[-20%] top-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))]"></div></div> */}
-      {/* <div class="relative h-full w-full bg-white"><div class="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000_70%,transparent_110%)]"></div></div> */}
-
-      {/* <div class="relative h-full w-full bg-slate-950"><div class="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div></div> */}
-
       <div class="relative z-10 h-full md:h-screen lg:h-full w-full bg-enigmanormalbg">
         <div class="absolute -z-20 h-full w-full bottom-0left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
 
@@ -35,9 +26,7 @@ function App() {
               <a href="#" className="hover:text-gray-300 p-2">
                 Enigma-machine
               </a>
-              {/* <a href="#" className="hover:text-gray-300 p-2 rounded-md">
-                Buy me a coffee
-            </a> */}
+
               <div className="flex items-center hover:cursor-pointer rounded-md p-2">
                 <img
                   src={buyMeCoffeePng}
@@ -85,7 +74,7 @@ function App() {
             </div>
 
             <div className="flex-row md:flex gap-3">
-              <div className="rounded-lg w-full md:w-[780px] grid grid-cols-1 gap-3">
+              <div className="rounded-lg w-full md:w-[780px] grid grid-cols-1 gap-4">
                 <div className="bg-enigmagray rounded-lg p-2">
                   <textarea
                     className="scrollable-content w-full h-48 bg-transparent text-enigmalightgray p-2 rounded-md focus:outline-none focus:border-enigmalightgreen resize-none overflow-auto"
@@ -186,7 +175,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="w-full md:w-[400px] rounded-lg grid grid-cols-1 gap-3">
+              <div className="w-full md:w-[460px] rounded-lg grid grid-cols-1 gap-4 mt-4 md:mt-0">
                 <div className="bg-enigmagray  h-[349px] rounded-lg p-2">
                   <div className="rounded-md h-60 flex flex-col items-center justify-center">
                     <h3 className="text-center text-enigmalightgray">
@@ -215,7 +204,7 @@ function App() {
                     Generate Language
                   </button>
                 </div>
-                <div className="bg-enigmagreen h-28 rounded-lg"></div>
+                <div className="bg-enigmagreen h-28 rounded-lg from-enigmalightgreen to-enigmagreen hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-enigmalightgreen dark:focus:ring-enigmagreen shadow-lg shadow-enigmagreen-500/50 dark:shadow-lg dark:shadow-green-800/80"></div>
               </div>
             </div>
           </div>
