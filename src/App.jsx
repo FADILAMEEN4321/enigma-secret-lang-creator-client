@@ -82,6 +82,22 @@ function App() {
         </section>
 
         {/* line section */}
+        
+        
+        {/* <div className="overflow-hidden flex items-center justify-center h-14 mt-11 bg-enigmalightgray rounded-md bg-opacity-30 rotate-[-8deg]">
+          <p className="animate-slide-left font-medium text-lg">egsgjojiofhn  d$k5df d$k5df lio8j9 lio8j9 djf djkf nj78 lnvfs9kj d$k5df lio8j9 don#$kj @djajdnior !jfo siw urnpivni%%irt ut d$k5df lio8j9 djf djkf nj78 d$k5df lio8j9 djf djkf nj78</p>
+
+</div> */}
+<div className="overflow-hidden flex items-center justify-center h-14 mt-11 text-enigmagray bg-enigmalightgray bg-opacity-30 rounded-lg text-sm font-semibold px-4 py-1 md:px-5 md:py-2 text-center rotate-[-8deg]">
+<p className="animate-slide-left font-medium text-lg">d$k5df lio8j9 djf djkf nj78  don#$kj @djajdnior d$k5df lio8j9  !jfo siw urnpivni%%irt  d$k5df lio8j9 ut d$k5df lio8j9 djf djkf nj78 d$k5df lio8j9 djf djkf nj78</p>
+        </div>
+
+
+        <div className="overflow-hidden flex items-center justify-center h-14 text-enigmagray bg-gradient-to-r from-enigmalightgreen to-enigmagreen hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-enigmalightgreen dark:focus:ring-enigmagreen shadow-lg shadow-enigmagreen-500/50 dark:shadow-lg dark:shadow-green-800/80 rounded-lg text-sm font-semibold px-4 py-1 md:px-5 md:py-2 text-center rotate-12">
+<p className="animate-slide-left font-medium text-lg">d$k5df lio8j9 djf djkf nj78  don#$kj @djajdnior d$k5df lio8j9  !jfo siw urnpivni%%irt  d$k5df lio8j9 ut d$k5df lio8j9 djf djkf nj78 d$k5df lio8j9 djf djkf nj78</p>
+        </div>
+       
+       
 
 
 

@@ -14,3 +14,16 @@
     border-radius: 6px;
   }
 
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(0);
+}
+100% {
+    transform: translateX(calc(-220px * 5));
+}
+}  
+
+.animate-slide-left {
+  animation: slideLeft 30s linear infinite;
+}
