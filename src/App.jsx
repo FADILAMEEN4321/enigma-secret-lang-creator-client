@@ -3,12 +3,25 @@ import { title } from "./constants/enigmaMachine";
 import lockPng from "./assets/lock-key.png";
 import securePng from "./assets/secure-icon.png";
 import buyMeCoffeePng from "./assets/buymecoffee-icon.png";
+import React, { useState } from 'react';
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <>
+     <div className="absolute -top-44 right-0 z-20 w-[450px] h-[450px] rounded-full bg-gradient-to-tl from-[#6B83FF] via-blue-400 to-transparent opacity-20"></div>
+     <div className="absolute -bottom-24 -left-16 z-20 w-[450px] h-[450px] rounded-full bg-gradient-to-tl from-[#00FFC2] via-green to-transparent opacity-20"></div>
+     {/*  */}
       <div class="relative z-10 h-full md:h-full lg:h-full w-full bg-enigmanormalbg">
+        {/*  */}
         <div class="absolute -z-20 h-full w-full bottom-0left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
+
+
 
         {/* NavBar */}
         <nav className="p-4 container mx-auto">
@@ -39,7 +52,7 @@ function App() {
             </div>
 
             {/* Login and Signup Buttons */}
-            <div className="space-x-4">
+            <div className="space-x-4 md:flex hidden">
               {/* Login Button */}
               <button
                 type="button"
@@ -51,11 +64,26 @@ function App() {
               {/* Signup Button */}
               <button
                 type="button"
-                className="text-enigmagray bg-white focus:ring-4 focus:outline-none focus:ring-white dark:focus:ring-white shadow-lg shadow-white-500/50 dark:shadow-lg dark:shadow-white-800/80 font-medium rounded-lg text-sm px-4 py-1 md:px-5 md:py-2 text-center"
+                className="text-enigmagray bg-white  focus:ring-4 focus:outline-none focus:ring-white dark:focus:ring-white shadow-lg shadow-white-500/50 dark:shadow-lg dark:shadow-white-800/80 font-medium rounded-lg text-sm px-4 py-1 md:px-5 md:py-2 text-center"
               >
                 Signup
               </button>
             </div>
+
+            {/* Dropdown section */}
+            <div className="md:hidden">
+            <label class="hamburger">
+  <input type="checkbox"  onClick={toggleMenu}/>
+  <svg viewBox="0 0 32 32">
+    <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+    <path class="line" d="M7 16 27 16"></path>
+  </svg>
+</label>
+        </div>
+
+        
+
+
           </div>
         </nav>
 
